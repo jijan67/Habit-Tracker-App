@@ -6,6 +6,9 @@ Short description
 Habit Tracker is a client-side React app (TailwindCSS + Recharts) for creating, scheduling and tracking daily habits with calendar and streak views — fully local (localStorage), export/importable as JSON, and supports light/dark themes. No backend required.
 
 ---
+## 👨‍💻 Author
+
+Made with ❤️ by [Jijanur Rahman](https://jijanurrahman.netlify.app/)
 
 Table of Contents
 -----------------
@@ -44,11 +47,13 @@ Features
 
 Quick demo / Screenshot
 -----------------------
-
-Add a short screenshot or GIF in this section for your repo README. Example:
-
 ![Screenshot](./public/habits.png)
 
+---
+## [🔗Live View](https://habit-tracker-by-jr.netlify.app/)
+---
+[![Download](https://img.shields.io/badge/Download-APK-blue.svg?style=flat&logo=android)](https://drive.google.com/file/d/1Fs4CkxD2h4KA-pqo5QFJwvbaucepTGKM/view?usp=sharing)
+---
 Installation
 ------------
 
@@ -60,8 +65,8 @@ Prerequisites
 Clone and setup
 
 ```bash
-git clone <your-repo-url>
-cd habit-tracker
+git clone https://github.com/jijan67/Habit-Tracker-App.git
+cd Habit-Tracker-App
 npm install
 ```
 
@@ -69,12 +74,6 @@ Start the dev server
 
 ```bash
 npm start
-```
-
-Build for production
-
-```bash
-npm run build
 ```
 
 Project structure
@@ -168,21 +167,9 @@ Testing, linting & build
 npm test
 ```
 
-- Build production bundle:
-
-```bash
-npm run build
-```
-
-Deployment
-----------
-
-- Recommended: Netlify, Vercel, or GitHub Pages. For Netlify or Vercel, push the repo and point the site to the built output (`npm run build`).
-
 Troubleshooting & tips
 ----------------------
 
-- If UI looks broken after editing CSS, run `npm run build` to ensure Tailwind directives are processed.
 - If calendar or charts look empty, confirm `habits` and `completions` exist in localStorage. Use the app Export to create a backup and inspect its JSON.
 - If scheduled times seem off across machines, it's due to `datetime-local` storing local time. See the Time section for normalization suggestions.
 
@@ -198,11 +185,6 @@ Contributing
 ------------
 
 Fork the repo, make changes, open a pull request with a clear description of your changes. Keep changes small and focused.
-
-Author
-------
-
-Made by [Jijanur Rahman](https://jijanurrahman.netlify.app)
 
 License
 -------
@@ -234,16 +216,6 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
